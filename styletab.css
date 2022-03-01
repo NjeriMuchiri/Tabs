@@ -8,7 +8,7 @@
    width: 90vw;
    margin: 0 auto;
    max-width: 1170px;
-   min-height: 100vh;
+   min-height: 70vh;
 }
 
 @media screen and (min-width: 992px) {
@@ -30,6 +30,8 @@ About
    text-transform: uppercase;
    letter-spacing: 0.1rem;
    color:#5f9ea0;
+   margin-bottom:1rem;
+   margin-top:2rem;
 }
 .about p {
    width: 80%;
@@ -109,7 +111,17 @@ About
 .content {
    display: none;
 }
-
+.content h4{
+   color:#004242;
+   text-transform: uppercase;
+   letter-spacing: 0.1rem;
+   text-align: center;
+}
+.content p{
+   word-spacing: 0.2em;
+   max-width: 25rem;
+   padding:1rem;
+}
 .tab-btn.active {
    background: #f0fff0;
 }
