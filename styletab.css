@@ -22,18 +22,18 @@
 About
 ===============
 */
-.about {
+.about-me {
    text-align: center;
    margin-bottom: 4rem;
 }
-.about h2{
+.about-me h2{
    text-transform: uppercase;
    letter-spacing: 0.1rem;
    color:#5f9ea0;
    margin-bottom:1rem;
    margin-top:2rem;
 }
-.about p {
+.about-me p {
    width: 80%;
    margin: 0 auto;
 }
@@ -106,21 +106,22 @@ About
    border-bottom-right-radius:20px;
    padding: 2rem 1.5rem;
 }
-
-/* hide content */
-.content {
-   display: none;
-}
-.content h4{
-   color:#004242;
+.content h4 {
+   color: #004242;
    text-transform: uppercase;
    letter-spacing: 0.1rem;
    text-align: center;
 }
-.content p{
+
+.content p {
    word-spacing: 0.2em;
    max-width: 25rem;
-   padding:1rem;
+   padding: 1rem;
+   letter-spacing: 0.0576em;
+}
+/* hide content */
+.content {
+   display: none;
 }
 .tab-btn.active {
    background: #f0fff0;
